@@ -3,11 +3,13 @@ source :rubygems
 gem "sinatra", "~> 1.3"
 gem "mustache", "~> 0.99", require: "mustache/sinatra"
 gem "puma"
+gem 'dotenv'
 
 group :development, :test do
   gem "awesome_print"
   gem "pry"
   gem "racksh"
+  gem 'shotgun'
 end
 
 group :test do

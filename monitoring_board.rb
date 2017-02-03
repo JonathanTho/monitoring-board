@@ -1,5 +1,5 @@
 require 'sinatra/base'
-
+require './config/boot'
 # configure {
 #   set :server, :puma
 # }
@@ -7,6 +7,6 @@ require 'sinatra/base'
 class MonitoringBoard < Sinatra::Base
 
 	get "/" do
-	  'Yo bitch'
+		'Hello'
 	end
 end
