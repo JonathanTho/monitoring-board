@@ -1,2 +1,2 @@
-require File.expand_path("../app", __FILE__)
-run Sinatra::Application
+require "./monitoring_board"
+run MonitoringBoard

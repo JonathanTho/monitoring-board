@@ -2,6 +2,7 @@ source :rubygems
 
 gem "sinatra", "~> 1.3"
 gem "mustache", "~> 0.99", require: "mustache/sinatra"
+gem "puma"
 
 group :development, :test do
   gem "awesome_print"

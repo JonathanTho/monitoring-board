@@ -10,7 +10,7 @@ require File.expand_path("../environment", __FILE__)
 # Add directories to load path.
 #
 $LOAD_PATH.tap do |path|
-  path << File.expand_path("../../app", __FILE__)
+  path << File.expand_path("../../monitoring_board", __FILE__)
 end
 
 # Load all initializers. Files will be loaded in
